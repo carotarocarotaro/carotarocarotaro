@@ -27,6 +27,27 @@ body{
   width:100%;
   background-color:#343430;
   display:inline-block;
+  background-image:url('kitten.png');
+  background-size:50%;
+  background-position:100% 40px;
+  background-repeat: no-repeat;
+}
+
+.mainpane > .nonheader{
+  width:100%;
+  height: calc(100vh - 200px);
+  overflow:scroll;
+}
+
+.mainpane > .nonheader > img{
+  float:left;
+  width:23.3333vw;
+  height: 23.3333vw;
+  opacity:.6;
+}
+
+.mainpane > .nonheader > img:hover{
+  opacity:1;
 }
 
 .mainpane > header > .prof{
@@ -57,6 +78,16 @@ body{
   font-family:'Lato-Thin','Lato','Poiret One', cursive;
   font-weight: 100;
   font-size:1em;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+
+.mainpane > header > .content > h3{
+  color:white;
+  width: auto;
+  font-family:'Poiret One', cursive;
+  font-weight: 100;
+  font-size:.75em;
   margin-top:0px;
 }
 
@@ -94,8 +125,20 @@ body{
       </div>
       <div class="content">
         <h1>Carolyn Lau</h1>
-        <h2>NYU Undergraduate, Class of 2019.  Debate Artisan.  Kitten Savent.</h2>
+        <h2>NYU Undergraduate, Class of 2019.  Debate Coaching Artisan.  Kitten Savent.</h2>
+        <h3><span>Hobbies:</span> Tricks debate, shhh</h3>
       </div>
     </header>
+    <div class="nonheader">
+      <img src="1.png">
+      <img src="2.png">
+      <img src="3.png">
+      <img src="4.png">
+      <img src="5.png">
+      <img src="6.png">
+      <img src="7.png">
+      <img src="8.png">
+      <img src="9.png">
+    </div>
   </div>
 </body>
